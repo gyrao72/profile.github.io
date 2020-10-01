@@ -1,2 +1,2 @@
-![Image of Yaktocat](https://github.com/gyrao72/profile.github.io/blob/master/public/ss1.png)
-![Image of Yaktocat](https://github.com/gyrao72/profile.github.io/blob/master/public/ss2.png)
+![Screenshot 1](https://github.com/gyrao72/profile.github.io/blob/master/css/ss1.png)
+![Screenshot 2](https://github.com/gyrao72/profile.github.io/blob/master/css/ss2.png)
