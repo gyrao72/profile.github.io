@@ -1,0 +1,454 @@
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+
+body,html{
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+hr{
+    border: dotted  #de72ed ;
+    border-bottom: none;
+    width:4%;
+    margin:0 auto ;
+}
+
+/* Header */
+
+.title{
+    background:url(img/back111.jpg);
+    text-align: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(to top ,#fff,transparent);
+} */
+
+.navbar-item{
+    font-size: 1.5rem;
+    padding:0 10px;
+}
+
+.title h1{
+    margin: 6rem auto 2rem auto ;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    font-weight: 200;
+    line-height:2;
+}
+
+.title h1::selection{
+    color: rgba(79, 236, 195, 0.891);
+}
+
+.title h3::selection{
+    color: rgba(79, 236, 195, 0.891);
+}
+
+h1::selection{
+    background-color: rgba(79, 236, 195, 0.891);
+    color: white;
+}
+
+h2::selection{
+    background-color: rgba(79, 236, 195, 0.891);
+    color: white;
+}
+
+h3::selection{
+    background-color: rgba(79, 236, 195, 0.891);
+    color: white;
+}
+
+h4::selection{
+    background-color: rgba(79, 236, 195, 0.891);
+    color: white;
+}
+
+p::selection{
+    background-color: rgba(100, 237, 200, 0.762);
+    color: white;
+}
+
+.title h1::selection{
+    background-color: transparent;
+    color: rgba(8, 8, 8, 0.653);
+}
+
+.title h3::selection{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.title h3{
+    font-size: 2rem;
+    color:white;
+}
+
+.container-fluid{
+    padding: 3% 6% ;
+}
+
+.my-container,.message,.carousel-container,.profile{
+    margin: 0 10%;
+    padding:7% 10%;
+    text-align: center;
+}
+
+/* About */
+
+.profile img{
+    margin-bottom:5%;
+}
+
+.profile h1{
+    font-weight: bold;
+}
+
+.profile p{
+    margin: auto;
+}
+
+.img-skill{
+    float:left;
+    margin-right: 4%;
+    padding-top: 3%;
+}
+
+.img-chall{
+    float:right;
+    margin-left: 4%;
+    padding-top: 3%;
+}
+
+.middle-p{
+    padding: 5% 0;
+}
+
+.skill h2{
+    padding:20px 0 20px;
+    font-weight:bold;
+    text-align: left;
+}
+
+.skill p{
+    text-align: left;
+}
+
+.chall h2{
+    padding:20px 0 20px;
+    font-weight:bold;
+    text-align: left;
+}
+
+.chall p{
+    text-align: left;
+}
+
+/* carousel */
+
+.carousel-inner{
+    padding:7% 10% 5% 10%;
+    background:linear-gradient(60deg,#de72ed, #9636e1, #365fe1) ;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+.carousel-container h1{
+    font-size: 2.2rem;
+    color: black;
+    padding:10px 0 10px 0;
+    border-radius: 5px;
+}
+
+.carousel-item img{
+    margin: auto;
+}
+
+.tech-img{
+    padding: 3%;
+}
+
+.tech-img h4{
+    padding-top: 10px;
+}
+
+/* Message */
+
+.message h1{
+    font-size: 3rem;
+    padding-bottom:25px;
+}
+
+.message h4{
+    font-weight: 800;
+    padding-bottom:3%;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    background:linear-gradient(60deg,#de72ed, #9636e1, #365fe1) ;
+}
+
+.social{
+    padding: 5% 0;
+}
+
+.social a{
+    color: black;
+    margin: 0 3%;
+    font-size: 2rem;
+}
+
+.social a:hover{
+    color: white ;
+    transition: 0.6s;
+}
+
+small{
+    font-size: 1rem;
+}
+
+/* Media  */
+
+@media screen and (max-width:900px){
+
+    .my-container{
+        text-align: center;
+    }
+
+    .img-skill,.img-chall{
+        float: none;
+    }
+
+    .skill h2{
+        padding:20px 0 20px;
+        font-weight:bold;
+        text-align: center;
+    }
+
+    .skill p{
+        text-align:center;
+    }
+
+    .chall h2{
+        padding:20px 0 20px;
+        font-weight:bold;
+        text-align: center;
+    }
+
+    .chall p{
+        text-align: center;
+    }
+
+    .carousel-container h1{
+        font-size: 2rem;
+    }
+
+    .message h1{
+        font-size: 2rem;
+        padding-bottom:25px;
+    }
+
+    .message h4{
+        font-size: 1.6rem;
+        padding-bottom:3%;
+        font-weight: 800;
+    }
+
+    .message p{
+        font-size: 1.3rem;
+    }
+
+    .social a{
+        font-size: 1.8rem;
+    }
+
+    small{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width: 602px){
+    .title h1{
+        font-size: 4.8rem;
+    }
+    .title h3{
+        font-size: 1.7rem;
+    }
+    .skill h2{
+        font-size: 1.5rem;
+    }
+
+    .skill p{
+        text-align:center;
+        font-size: 1rem;
+    }
+
+    .chall h2{
+        font-size: 1.5rem;
+    }
+
+    .chall p{
+        text-align:center;
+        font-size: 1rem;
+    }
+
+    .profile h1{
+        font-size: 2rem;
+    }
+
+    .profile p{
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .carousel-container h1{
+        font-size: 1.5rem;
+    }
+
+    .carousel-inner{
+        height: 250px;
+    }
+
+    .message h4{
+        font-size:1.6rem;
+        padding-bottom: 3%;
+        font-weight: 700;
+    }
+
+    .message p{
+        font-size: 1.3rem;
+    }
+
+    .social a{
+        font-size: 1.6rem;
+    }
+
+    small{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 485px){
+    
+    .title h1{
+    margin: 12.5rem auto 2rem auto ;
+    font-size: 3.2rem;
+    }
+
+    .title h3{
+        font-size: 1.4rem;
+    }
+    
+    .my-container h1{
+        font-size:2rem;
+    }
+
+    .skill h2{
+        padding:20px 0 20px;
+        font-weight:bold;
+        text-align:center;
+        font-size:1.3rem;
+    }
+
+    .skill p{
+        font-size:1rem;
+    }
+
+    .chall h2{
+        padding: 20px 0 20px;
+        font-weight: bold;
+        text-align: center;
+        font-size:1.3rem;
+    }
+
+    .chall p{
+        font-size:1rem;
+    }
+
+    .profile h1{
+        font-weight: bold;
+        font-size:1.4rem;
+    }
+
+    .profile p{
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .carousel-container{
+        padding: 7% 5% 5% 5%;
+    }
+
+    .carousel-container h1{
+        font-size: 1.4rem;
+    }
+
+    .carousel-inner{
+        height: 220px;
+    }
+
+    .message h1{
+        font-size: 1.8rem;
+        padding-bottom:25px;
+        font-weight: 800;
+    }
+
+    .message h4{
+        font-size: 1.3rem;
+        padding-bottom:3%;
+        font-weight: 700;
+    }
+
+    .message p{
+        font-size: 1rem;
+    }
+
+    .social a{
+        font-size: 1.4rem;
+    }
+
+    small{
+        font-size: 0.8rem;
+    }
+}
